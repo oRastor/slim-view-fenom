@@ -1,0 +1,22 @@
+{
+    "name": "rastor/slim-view-fenom",
+    "type": "library",
+    "description": "Slim adapter for render fenom views into a PSR-7 Response object.",
+    "keywords": ["slim", "framework", "view", "template", "fenom", "tpl", "renderer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Orest Budzhak",
+            "email": "doom4eg@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0",
+        "fenom/fenom": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rastor\\Slim\\View\\": "src"
+        }
+    }
+}
